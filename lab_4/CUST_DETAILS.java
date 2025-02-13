@@ -69,22 +69,6 @@ public class CUST_DETAILS implements AuditLoggable{
     @JoinColumn(name = "CSTDET_TYPE")
     private CUST_CL type;
 
-    /*@OneToMany
-    @JoinColumn(name = "fk_CST_ID", referencedColumnName = "CST_ID")
-    private List<CUST_NAME> cust_NAME;
-
-    // Getters and Setters
-
-    public void setCust_NAME(List<CUST_NAME> cust_NAME)
-    {
-        this.cust_NAME = cust_NAME;
-    }
-
-    public List<CUST_NAME> getCust_NAME()
-    {
-        return cust_NAME;
-    }*/
-
     public Long getIdfr() {
         return idfr;
     }
@@ -134,14 +118,6 @@ public class CUST_DETAILS implements AuditLoggable{
     public void setStatus(String status) {
         this.status = status;
     }
-
-    /*public String getContact() {
-        return contact;
-    }
-
-    public void setContact(String contact) {
-        this.contact = contact;
-    }*/
 
     public String getMobile() {
         return mobile;
