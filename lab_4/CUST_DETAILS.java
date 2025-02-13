@@ -1,4 +1,4 @@
-package com.roll31.lab3.entity;
+package com.example.demo.entity;
 
 import java.sql.Date;
 import java.sql.Timestamp;
@@ -34,8 +34,6 @@ public class CUST_DETAILS implements AuditLoggable{
     private Date dob;
     @Column(name = "CSTDET_STATUS")
     private String status;
-    /*@Column(name = "CSTDET_CONTACT")
-    private String contact;*/
     @Column(name = "CSTDET_MOBILE")
     private String mobile;
     @Column(name = "CSTDET_EMAIL")
